@@ -2,7 +2,7 @@
 #include "TitleScene.h"
 #include "PlayScene.h"
 
-const char kWindowTitle[] = "Shooting Game";
+const char kWindowTitle[] = "GC1A_02_カトウ_ツヨシ_EarthDefense";
 
 enum SceneType { TITLE, PLAY };
 
@@ -70,7 +70,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 			playScene.Draw();
 		}
 
-		Novice::ScreenPrintf(0, 0, "%d", resetTimer);
+		
 		///
 		/// ↓描画処理ここから
 		///
